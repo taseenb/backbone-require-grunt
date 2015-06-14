@@ -46,8 +46,8 @@ module.exports = function (grunt) {
           name: "../node_modules/almond/almond",
           out: '../js/app.js',
           wrap: {
-            start: '/*! p-test - code by @taseenb / v<%= pkg.version %> <%= grunt.template.today("mmmm dd, yyyy") %> */\n',
-            end: '/* thanks by @taseenb */'
+            start: '/*! app / v<%= pkg.version %> <%= grunt.template.today("mmmm dd, yyyy") %> */\n',
+            end: '/* start */'
           },
           wrapShim: true,
           removeCombined: true,
